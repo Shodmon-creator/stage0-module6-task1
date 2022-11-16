@@ -1,14 +1,14 @@
 package com.epam.mjc.stage0;
 
+
+
 public class Bird extends Animal {
- Bird(){
-  super("brown",4,true);
- }
- @Override
- public String getDescription(){
+    public Bird() {
+        super("blue", 2, false);
+    }
 
-  return getDescription()+" Moreover, it has 2 wings and can fly.";
- }
-
-
+    @Override
+    public String getDescription() {
+        return super.getDescription() + " Moreover, it has 2 wings and can fly.";
+    }
 }

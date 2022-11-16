@@ -5,7 +5,8 @@ public class Animal {
     private int numberOfPaws;
     private boolean hasFur;
 
-     String getDescription() {
+
+    String getDescription() {
         String description = "This animal is mostly " + color + ". It has " + numberOfPaws;
         if (numberOfPaws == 1) {
             description += " paw ";
@@ -19,6 +20,7 @@ public class Animal {
             description += "no ";
         }
         description += "fur.";
+
         return description;
     }
 
