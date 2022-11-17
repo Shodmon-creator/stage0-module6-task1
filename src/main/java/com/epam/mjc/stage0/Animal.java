@@ -1,12 +1,12 @@
 package com.epam.mjc.stage0;
 
 public class Animal {
-    private String color;
-    private int numberOfPaws;
-    private boolean hasFur;
+    private final String color;
+    private final int numberOfPaws;
+    private final boolean hasFur;
 
 
-    String getDescription() {
+    public String getDescription() {
         String description = "This animal is mostly " + color + ". It has " + numberOfPaws;
         if (numberOfPaws == 1) {
             description += " paw ";
